@@ -37,6 +37,10 @@
                         <i class='bx bx-list-ul nav_icon'></i>
                         <span class="nav_name">Tables</span>
                     </a>
+                    <a href="/breadcrumbs" class="nav_link {{ $active == 'breadcrumbs' ? 'active' : '' }}">
+                        <i class='bx bx-baguette nav_icon'></i>
+                        <span class="nav_name">Breadcrumbs</span>
+                    </a>
                 </div>
             </div>
         </nav>
