@@ -29,16 +29,16 @@
                     <span class="nav_logo-name">Components</span>
                 </a>
                 <div class="nav_list">
-                    <a href="#" class="nav_link {{ $active == 'dashboard' ? 'active' : '' }}">
-                        <i class='bx bx-grid-alt nav_icon'></i>
+                    <a href="/" class="nav_link {{ $active == 'dashboard' ? 'active' : '' }}">
+                        <i class='bx bx-home nav_icon'></i>
                         <span class="nav_name">Dashboard</span>
+                    </a>
+                    <a href="/tables" class="nav_link {{ $active == 'tables' ? 'active' : '' }}">
+                        <i class='bx bx-list-ul nav_icon'></i>
+                        <span class="nav_name">Tables</span>
                     </a>
                 </div>
             </div>
-            <a href="#" class="nav_link">
-                <i class='bx bx-log-out nav_icon'></i>
-                <span class="nav_name">SignOut</span>
-            </a>
         </nav>
     </div>
     <!--Container Main start-->
