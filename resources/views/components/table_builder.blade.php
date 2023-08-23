@@ -92,8 +92,8 @@
     <table id="{{ $tableID }}" class="{{ isset($tableClass) ? $tableClass : 'table w-100' }}">
         <thead>
             @php
-                isset($cols[0]['class']) ? ($cols[0]['class'] .= ' h-start') : ($cols[0]['class'] = ' h-start');
-                isset($cols[count($cols) - 1]['class']) ? ($cols[count($cols) - 1]['class'] .= ' h-end') : ($cols[count($cols) - 1]['class'] = ' h-end');
+                $cols[0]['class'] = ' h-start';
+                $cols[count($cols) - 1]['class'] = ' h-end';
             @endphp
             @foreach ($cols as $col)
                 <th {{ isset($col['class']) ? 'class=' . $col['class'] : '' }}>{{ $col['label'] }}</th>

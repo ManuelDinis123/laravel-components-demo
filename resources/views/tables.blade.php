@@ -1,7 +1,6 @@
 @extends('layouts.side', ['active' => 'tables'])
 
 @section('content')
-
     <style>
         .dt-actions{
             color: #8f1818 !important;
