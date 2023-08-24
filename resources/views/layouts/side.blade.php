@@ -33,6 +33,10 @@
                         <i class='bx bx-home nav_icon'></i>
                         <span class="nav_name">Dashboard</span>
                     </a>
+                    <a href="/modals" class="nav_link {{ $active == 'modals' ? 'active' : '' }}">
+                        <i class='bx bx-carousel nav_icon'></i>
+                        <span class="nav_name">Modals</span>
+                    </a>
                     <a href="/tables" class="nav_link {{ $active == 'tables' ? 'active' : '' }}">
                         <i class='bx bx-list-ul nav_icon'></i>
                         <span class="nav_name">Tables</span>

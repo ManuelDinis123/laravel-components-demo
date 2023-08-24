@@ -21,3 +21,6 @@ Route::post('/tables/get', [TablesController::class, 'getTableData'])->name("get
 Route::get('/breadcrumbs', function () {
     return view('breadcrumbs_demo');
 });
+Route::get('/modals', function () {
+    return view('modals');
+});

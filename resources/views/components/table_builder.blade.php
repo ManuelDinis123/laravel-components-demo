@@ -1,6 +1,7 @@
-{{-- 
+{{--
+    Version 1 
     This is the table builder component, it creates a table using the datatables plugin
-    To use it you must have the datatables plugin in your project included either in a global file or in the file where this
+    To use it you must have the datatables plugin, JQuery and Bootstrap 5 in your project included either in a global file or in the file where this
     component is used, it must always be included before using this component
 --}}
 

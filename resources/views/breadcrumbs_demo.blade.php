@@ -8,8 +8,11 @@
             'container_class' => 'page-title',
             'title' => 'Breadcrumbs',
             'separator' => true,
+            'custom' => [                
+                "title_css" => "background-color: #8f1818; color:white; padding:18px; border-radius: 10px;",
+            ]
         ])
-        @endcomponent        
+        @endcomponent
 
         @component('components.breadcrumbs', [
             'title' => 'Styled BreadCrumbs',

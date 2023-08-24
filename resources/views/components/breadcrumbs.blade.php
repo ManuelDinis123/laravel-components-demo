@@ -1,4 +1,5 @@
 {{-- 
+    Version 1
     This is a breadcrumb component. You can send the title of the page and the breadcrumbs.
     To use custom styling you must send the container_class property so that no styles are overwritten if using this more
     than once in one page.
