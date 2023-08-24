@@ -63,8 +63,8 @@
         }
 
         .custom-input-modal {
-            border-radius: 15px !important;
-            outline: 1px solid rgb(75, 75, 75);
+            border-radius: 25px !important;
+            box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.25) !important;
         }
 
         .modal-lbls {
@@ -75,6 +75,11 @@
         .mdl-btns {
             font-weight: 700;
             border-radius: 20px !important;
+            box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.25) !important;
+            transition: all 0.2s;
+        }
+        .mdl-btns:hover {
+            transform: scale(1.06);
         }
     </style>
 

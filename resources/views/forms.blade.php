@@ -69,6 +69,16 @@
     </style>
 
     <div class="container pb-5">
+        @component('components.breadcrumbs', [
+            'container_class' => "title-bc",
+            'title' => "Form Examples",
+            'separator' => true,
+            'custom' => [                
+                "title_css" => "background-color: #8f1818; color:white; padding:18px; border-radius: 10px;",
+            ]
+        ])
+        @endcomponent
+
         @component('components.form_builder', [
             'formID' => 'simpleForm',
             'formTitle' => 'Default Form',
