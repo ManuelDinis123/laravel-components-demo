@@ -34,28 +34,28 @@
 </style>
 @if (isset($cards))
     <style>
-        .scrollable {
+        .bd-{{ $modal_id }} .scrollable {
             overflow-y: auto;
             overflow-x: hidden;
             height: 600px;
             margin-left: 5px;
         }
 
-        .scrollable::-webkit-scrollbar {
+        .bd-{{ $modal_id }} .scrollable::-webkit-scrollbar {
             width: 12px;
         }
 
-        .scrollable::-webkit-scrollbar-track {
+        .bd-{{ $modal_id }} .scrollable::-webkit-scrollbar-track {
             background-color: #dbdbdb;            
             border-radius: 10px;
         }
 
-        .scrollable::-webkit-scrollbar-thumb {            
+        .bd-{{ $modal_id }} .scrollable::-webkit-scrollbar-thumb {            
             border-radius: 10px;
             background-color: {{isset($scrollerColor)?$scrollerColor:'#242424'}} ;
         }
 
-        .modal-body {
+        .bd-{{ $modal_id }} {
             position: relative;
             flex: 1 1 auto;
             padding: 0 !important;
@@ -84,7 +84,7 @@
             @endif
             {{-- Set hasBody to true to use the body --}}
             @if (isset($hasBody))
-                <div class="modal-body">
+                <div class="modal-body bd-{{ $modal_id }}">
                     {{-- Set hasForm to true to have a form --}}
                     @if (isset($inputs))
                         {{-- Build the inputs --}}
