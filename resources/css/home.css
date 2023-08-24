@@ -1,0 +1,175 @@
+.showcase-container {
+    width: 524px;
+    height: 516px;
+    border-radius: 20px;
+    background: #d14a4a;
+    margin: 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.showcase-container:hover {
+    transform: scale(1.03);
+}
+
+/* Modals */
+
+.showcase-container:hover .modal1 {
+    top: 71px;
+    left: 46px;
+    transform: rotate(343deg);
+}
+.showcase-container:hover .modal2 {
+    top: -145px;
+    left: 231px;
+    transform: rotate(18deg);
+}
+.showcase-container:hover .modal-shadow {
+    top: -106px;
+    left: 92px;
+    width: 337px;
+}
+
+.showcase-container:active {
+    transform: scale(1);
+}
+.showcase-container:active .modal1 {
+    top: 81px;
+    left: 76px;
+    transform: rotate(350deg);
+}
+.showcase-container:active .modal2 {
+    top: -174px;
+    left: 215px;
+    transform: rotate(8.748deg);
+}
+.showcase-container:active .modal-shadow {
+    top: -125px;
+    left: 110px;
+    width: 315px;
+}
+
+/* Tables */
+
+.modal-shadow {
+    border-radius: 100%;
+    background: rgba(0, 0, 0, 0.21);
+    width: 315px;
+    height: 19px;
+    position: relative;
+    top: -125px;
+    left: 110px;
+    transition: all 0.5s ease;
+}
+.table-shadow {
+    border-radius: 100%;
+    background: rgba(0, 0, 0, 0.21);
+    width: 315px;
+    height: 19px;
+    position: relative;
+    top: 317px;
+    left: 110px;
+    transition: all 0.5s ease;
+}
+.showcase-container:hover .table-showcase {
+    top: 166px;
+    transform: rotate(25deg);
+    transform: scale(1.05);
+}
+.showcase-container:hover .table-shadow {
+    top: 347px;
+    left: 92px;
+    width: 337px;
+}
+.showcase-container:active .table-showcase {
+    top: 152px;
+    transform: rotate(-5.185deg) !important;
+    transform: scale(1);
+}
+.showcase-container:active .table-shadow {
+    top: 317px;
+    left: 110px;
+    width: 315px;
+}
+
+/* Inputs */
+
+.custom-input {
+    pointer-events: none;
+    width: 80%;
+    text-align: right;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.25) !important;
+    transition: all 0.5s;
+}
+
+.input1 {
+    top: 75px;
+    left: 45px;
+    transform: rotate(346deg);
+}
+
+.input2 {
+    top: 141px;
+    left: 52px;
+    transform: rotate(354deg);
+}
+
+.input3 {
+    top: 211px;
+    left: 54px;
+    transform: rotate(3deg);
+}
+
+.form-shadow {
+    border-radius: 100%;
+    background: rgba(0, 0, 0, 0.21);
+    width: 315px;
+    height: 19px;
+    position: relative;
+    top: 239px;
+    left: 110px;
+    transition: all 0.5s ease;
+}
+
+.showcase-container:hover .input1 {
+    top: 53px;
+    left: 38px;
+    transform: rotate(338deg);
+}
+.showcase-container:hover .input2 {
+    top: 152px;
+    left: 52px;
+    transform: rotate(357deg);
+}
+.showcase-container:hover .input3 {
+    top: 243px;
+    left: 54px;
+    transform: rotate(12deg);
+}
+.showcase-container:hover .form-shadow {
+    top: 291px;
+    left: 71px;
+    width: 383px;
+}
+
+.showcase-container:active .input1 {
+    top: 75px;
+    left: 45px;
+    transform: rotate(346deg);
+}
+.showcase-container:active .input2 {
+    top: 141px;
+    left: 52px;
+    transform: rotate(354deg);
+}
+.showcase-container:active .input3 {
+    top: 211px;
+    left: 54px;
+    transform: rotate(3deg);
+}
+.showcase-container:active .form-shadow {
+    top: 239px;
+    left: 110px;
+    width: 315px;
+}
