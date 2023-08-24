@@ -64,7 +64,7 @@
 @endif
 
 {{-- Call this to get a custom modal --}}
-<div class="modal fade" id="{{ $modal_id }}" aria-labelledby="{{ $modal_id }}Label" aria-hidden="true">
+<div class="modal fade" id="{{ $modal_id }}" aria-labelledby="{{ $modal_id }}Label" aria-hidden="true" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content">
             {{-- Use this to send raw code to the modal --}}
@@ -85,7 +85,6 @@
             {{-- Set hasBody to true to use the body --}}
             @if (isset($hasBody))
                 <div class="modal-body bd-{{ $modal_id }}">
-                    {{-- Set hasForm to true to have a form --}}
                     @if (isset($inputs))
                         {{-- Build the inputs --}}
                         @foreach ($inputs as $input)

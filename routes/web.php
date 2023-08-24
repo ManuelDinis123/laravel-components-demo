@@ -24,3 +24,6 @@ Route::get('/breadcrumbs', function () {
 Route::get('/modals', function () {
     return view('modals');
 });
+Route::get('/forms', function () {
+    return view('forms');
+});
