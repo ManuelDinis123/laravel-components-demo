@@ -173,3 +173,97 @@
     left: 110px;
     width: 315px;
 }
+
+/* Breadcrumbs */
+
+.outer-bc{
+    position: relative;
+    top: 135px;
+    left: 0px;
+    transform: scale(0.8);
+    transition: all 0.5s ease;
+}
+
+.bc-title-red{
+    position: relative;
+    top: 5px;
+    left: 0px;
+    transition: all 0.5s ease;
+}
+
+.bc-spans {
+    color: white;
+    position: relative;
+    top: -46px;
+    left: 247px;
+    transition: all 0.5s ease;
+}
+
+.bc-shadow {
+    border-radius: 100%;
+    background: rgba(0, 0, 0, 0.21);
+    width: 315px;
+    height: 19px;
+    position: relative;
+    top: 239px;
+    left: 110px;
+    transition: all 0.5s ease;
+}
+
+.showcase-container:hover .bc-shadow {
+    top: 264px !important;
+    left: 46px;
+    width: 440px;
+}
+.showcase-container:hover .bc-title-red {
+    transform: rotate(10deg) !important;
+}
+
+.showcase-container:hover .outer-bc {
+    transform: rotate(-9deg) scale(0.95) !important;
+    /* transform: scale(0.8) !important; */
+}
+.showcase-container:hover .sp1 {
+    transform: rotate(-9deg) !important;
+}
+.showcase-container:hover .sp2 {
+    transform: rotate(16deg) !important;
+}
+.showcase-container:hover .sp3 {
+    transform: rotate(10deg) !important;
+}
+.showcase-container:hover .sp4 {
+    transform: rotate(-4deg) !important;
+}
+.showcase-container:hover .sp5 {
+    transform: rotate(-9deg) !important;
+}
+.showcase-container:active .bc-title-red {
+    transform: rotate(0) !important;
+}
+
+.showcase-container:active .bc-shadow {
+    top: 239px;
+    left: 110px;
+    width: 315px;
+}
+
+.showcase-container:active .outer-bc {
+    transform: rotate(0) scale(0.8) !important;
+    /* transform: scale(0.8) !important; */
+}
+.showcase-container:active .sp1 {
+    transform: rotate(0) !important;
+}
+.showcase-container:active .sp2 {
+    transform: rotate(0) !important;
+}
+.showcase-container:active .sp3 {
+    transform: rotate(0) !important;
+}
+.showcase-container:active .sp4 {
+    transform: rotate(0) !important;
+}
+.showcase-container:active .sp5 {
+    transform: rotate(0) !important;
+}

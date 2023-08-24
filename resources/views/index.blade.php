@@ -67,10 +67,18 @@
                 <input type="text" class="form-control custom-input input1" placeholder="Custom">
                 <div class="form-shadow"></div>
             </div>
-            <div class="showcase-container" id="breadcrumbs">
-                {{-- For this one have the breadcrumbs title saying breadcrumbs
-                    and on hover the links slide from the title to the left
-                    each with some delay --}}
+            <div class="showcase-container" id="breadcrumbs_demo">
+                <div class="outer-bc" style="padding: 25px; border-radius:15px; background-color:rgb(44, 44, 44);">
+                    <div class="bc-title-red" style="padding: 15px; background-color:#8f1818; border-radius:15px; width: fit-content;" class="bc-title-outer">
+                        <h3 style="color: white; font-weight:800;">Breadcrumbs</h3>
+                    </div>
+                    <label class="bc-spans sp1">link 1</label>
+                    <label class="bc-spans sp2">-</label>
+                    <label class="bc-spans sp3">link 2</label>
+                    <label class="bc-spans sp4">-</label>
+                    <label class="bc-spans sp5">link 3</label>
+                </div>
+                <div class="bc-shadow"></div>
             </div>
         </div>
     </div>
@@ -84,6 +92,9 @@
         })
         $("#forms_demo").on('click', () => {
             window.location.href = "/forms";
+        })
+        $("#breadcrumbs_demo").on('click', () => {
+            window.location.href = "/breadcrumbs";
         })
     </script>
 @stop
