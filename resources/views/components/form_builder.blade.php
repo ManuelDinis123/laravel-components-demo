@@ -1,6 +1,6 @@
 {{-- 
     Form Builder Component.
-    Requires Bootstrap 5 and JQuery
+    Requires Bootstrap 5
 --}}
 
 @if (isset($containerCSS))
