@@ -151,3 +151,12 @@ a {
         padding-left: calc(var(--nav-width) + 188px);
     }
 }
+
+.header_img{
+    font-size: 45px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.header_img:hover {
+    transform: scale(1.2);    
+}
