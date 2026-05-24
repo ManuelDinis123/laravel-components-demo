@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <div class="container">        
+    <div class="container pt-5">        
         {{-- Only Title --}}
         @component('components.breadcrumbs', [
             'container_class' => 'page-title',

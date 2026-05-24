@@ -27,3 +27,6 @@ Route::get('/modals', function () {
 Route::get('/forms', function () {
     return view('forms');
 });
+Route::get('/charts', function () {
+    return view('charts_demo');
+});

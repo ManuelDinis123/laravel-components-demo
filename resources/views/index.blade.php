@@ -48,7 +48,7 @@
         /*  */
     </style>
 
-    <div class="container">
+    <div class="container pt-5">
         <div class="d-flex justify-content-center">
             <div class="showcase-container" id="modals_demo">
                 <div class="modal1"></div>

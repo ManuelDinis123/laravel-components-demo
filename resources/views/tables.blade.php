@@ -12,7 +12,7 @@
         }
     </style>
 
-    <div class="container">        
+    <div class="container pt-5">        
         @component('components.breadcrumbs', [
             'container_class' => "title-bc",
             'title' => "Table Component Example",

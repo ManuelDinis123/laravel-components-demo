@@ -13,6 +13,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/js/jquery.dataTables.min.js"
     integrity="sha512-BkpSL20WETFylMrcirBahHfSnY++H2O1W+UnEEO4yNIl+jI2+zowyoGJpbtk6bx97fBXf++WJHSSK2MV4ghPcg=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 <link rel="stylesheet" href="{{ mix('resources/css/side.css') }}">
@@ -49,6 +50,10 @@
                     <a href="/breadcrumbs" class="nav_link {{ $active == 'breadcrumbs' ? 'active' : '' }}">
                         <i class='bx bx-baguette nav_icon'></i>
                         <span class="nav_name">Breadcrumbs</span>
+                    </a>
+                    <a href="/charts" class="nav_link {{ $active == 'charts' ? 'active' : '' }}">
+                        <i class='bx bx-chart nav_icon'></i>
+                        <span class="nav_name">Charts</span>
                     </a>
                 </div>
             </div>
